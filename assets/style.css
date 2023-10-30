@@ -27,9 +27,9 @@ h2 {
 }
 
 h6 {
-    font-size: 26px;
+    font-size: 20px;
     color: #000;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 a,
@@ -66,10 +66,102 @@ p {
     gap: .5rem;
 }
 
+.socail-header-icons-1 {
+    display: flex;
+    justify-content: start;
+    gap: .5rem;
+}
+
+.socail-header-icons-1 img {
+    width: 10%;
+}
+
 .socail-header-icons img {
     width: 15%;
 }
 
 .spacing {
     margin-top: 7%;
+}
+
+.footer-icons {
+    gap: .5rem;
+    margin-bottom: 10px;
+}
+
+.footer-icons img {
+    width: 8%;
+}
+
+.text-grey {
+    color: #666666;
+}
+
+.half-border {
+    border-bottom: 4px solid #F99A19;
+    padding-bottom: 5px;
+}
+
+.indicate-arrow {
+    padding-right: 5px;
+    font-size: 19px;
+}
+
+.shadule {
+    border-bottom: 4px dotted #DEDEDE;
+    padding-top: 1.5rem;
+    padding-bottom: 1.4rem;
+}
+
+.headphone-img img {
+    width: 15%;
+}
+
+.text-black {
+    color: #000;
+}
+
+.fw-med {
+    font-weight: 500;
+}
+
+.footer-bg {
+    background-color: #FFF8E5;
+    background-image: url("./images/footer-bg-image.png");
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.copy-right {
+    background-color: #FEDA46;
+    padding: 1rem;
+}
+
+.copy-right p {
+    margin: 0;
+}
+
+@media (max-width:999px) {
+    .footer-icons img{
+        width: 5%;
+    }
+    .footer-bg {
+        background-image: none;
+    }
+}
+@media (max-width:768px) {
+    .message-box-icon img{
+        width: 10%;
+    }
+    .message-box-icon-1 img{
+        width: 8%;
+    }
+    .message-box-icon-1 {
+        border: none;
+        padding-left: 0;
+        padding-top: .5rem;
+    }
 }

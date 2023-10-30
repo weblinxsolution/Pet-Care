@@ -8,7 +8,7 @@
 }
 
 .wrapper {
-    max-width: 1400px;
+    max-width: 1300px;
     padding-left: 1rem;
     padding-right: 1rem;
     margin: auto;
@@ -32,7 +32,8 @@ h6 {
     font-weight: 600;
 }
 
-a {
+a,
+.nav-link {
     list-style: none;
     text-decoration: none;
     color: #000;
@@ -47,4 +48,28 @@ p {
 
 .text-orange {
     color: #F99A19;
+}
+
+.message-box-icon-1 {
+    border-left: 4px solid #B7B7B7;
+
+    padding-left: 1rem;
+}
+
+.message-box-icon img {
+    width: 15%;
+}
+
+.socail-header-icons {
+    display: flex;
+    justify-content: end;
+    gap: .5rem;
+}
+
+.socail-header-icons img {
+    width: 15%;
+}
+
+.spacing {
+    margin-top: 7%;
 }

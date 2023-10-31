@@ -361,31 +361,37 @@ p {
     background-color: #F5F5F5;
     padding: 4% 5%;
 }
-.contact-forms input{
+
+.contact-forms input {
     border-radius: 50px;
     border: none;
-    padding:10px 20px;
+    padding: 10px 20px;
 }
-.contact-forms select{
+
+.contact-forms select {
     border-radius: 50px;
     border: none;
-    padding:10px 20px;
+    padding: 10px 20px;
 }
-.contact-forms textarea{
+
+.contact-forms textarea {
     border-radius: 22px;
     border: none;
-    padding:10px 20px;
+    padding: 10px 20px;
 }
-.conatct-yellow{
+
+.conatct-yellow {
     background-color: #FEDA46;
     border-radius: 30px;
     padding: 2rem;
 }
-.contact-us-bg{
+
+.contact-us-bg {
     background-color: #FBFBFB;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
+
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;
@@ -579,9 +585,18 @@ p {
 }
 
 @media (max-width:580px) {
+    select option {
+        font-size: 11px !important;
+    }
 
     .bannerbg {
         margin-top: -50%;
         padding-top: 60%;
+    }
+    .conatct-yellow{
+        padding: 1rem;
+    }
+    h3{
+        font-size: 25px;
     }
 }

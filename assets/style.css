@@ -349,10 +349,48 @@ p {
     padding-bottom: 10%;
 }
 
+/* Conatct Us navs&tabs */
+.active {
+    color: #000 !important;
+    background-color: transparent !important;
+    border-bottom: 1px solid #F99A19;
+    border-radius: 0 !important;
+}
+
+.on-select-cards {
+    background-color: #F5F5F5;
+    padding: 4% 5%;
+}
+.contact-forms input{
+    border-radius: 50px;
+    border: none;
+    padding:10px 20px;
+}
+.contact-forms select{
+    border-radius: 50px;
+    border: none;
+    padding:10px 20px;
+}
+.contact-forms textarea{
+    border-radius: 22px;
+    border: none;
+    padding:10px 20px;
+}
+.conatct-yellow{
+    background-color: #FEDA46;
+    border-radius: 30px;
+    padding: 2rem;
+}
+.contact-us-bg{
+    background-color: #FBFBFB;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;
     }
+
     .the-arrows-1 {
         top: 365px;
     }

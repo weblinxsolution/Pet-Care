@@ -194,6 +194,7 @@ p {
 
 .sitter-image {
     width: 100%;
+    height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;

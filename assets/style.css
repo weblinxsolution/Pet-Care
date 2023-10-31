@@ -415,6 +415,15 @@ p {
     border-radius: 100px;
 }
 
+.before-after-image-1::after {
+    top: -80px !important;
+    right: -100px !important;
+}
+
+.before-after-image-1::before {
+    bottom: -80px !important;
+    left: -100px !important; 
+}
 .before-after-image::after {
     content: "";
     position: absolute;
@@ -438,7 +447,11 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
 }
-
+.loaction-icon{
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;

@@ -418,22 +418,24 @@ p {
 .before-after-image::after {
     content: "";
     position: absolute;
-    right: 25%;
-    top: 15%;
-    height: 200px;
-    width: 200px;
+    right: -100px;
+    top: 0;
+    height: 160px;
+    width: 160px;
     background-image: url("./images/red-dots-top.png");
+    background-repeat: no-repeat;
     background-size: contain;
 }
 
 .before-after-image::before {
     content: "";
     position: absolute;
-    left: 25%;
-    bottom: 15%;
-    height: 200px;
-    width: 200px;
+    left: -100px;
+    bottom: 0;
+    height: 160px;
+    width: 160px;
     background-image: url("./images/red-dots-bottom.png");
+    background-repeat: no-repeat;
     background-size: contain;
 }
 
@@ -556,6 +558,14 @@ p {
 }
 
 @media (max-width:680px) {
+    .before-after-image::after {
+        background-image: none;
+    }
+
+    .before-after-image::before {
+        background-image: none;
+    }
+
     .about-banner {
         padding-top: 1rem;
     }

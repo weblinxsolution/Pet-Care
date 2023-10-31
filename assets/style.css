@@ -100,15 +100,20 @@ p {
 }
 
 .footer-icons img {
-    width: 8%;
+    width: 10%;
+}
+.footer-icons a {
+    text-decoration: underline;
 }
 
 .text-grey {
     color: #666666;
 }
-
+.text-small{
+    font-size: 12px;
+}
 .half-border {
-    border-bottom: 4px solid #F99A19;
+    border-bottom: 3px solid #F99A19;
     padding-bottom: 5px;
 }
 
@@ -206,7 +211,9 @@ p {
 .navbar-expand-lg .navbar-nav {
     gap: 1.5rem;
 }
-
+.our-services{
+    padding-bottom: 3rem;
+}
 .our-services img {
     width: 10%;
 }

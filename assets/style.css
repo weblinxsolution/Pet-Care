@@ -27,6 +27,12 @@ h1 {
 h2 {
     font-size: 45px;
     color: #000;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 40px;
+    color: #000;
     font-weight: 600;
 }
 
@@ -42,7 +48,7 @@ a,
     text-decoration: none;
     color: #000;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 p {
@@ -194,7 +200,7 @@ p {
 }
 
 .navbar-brand {
-    font-size: 30px !important;
+    font-size: 33px !important;
 }
 
 .navbar-expand-lg .navbar-nav {
@@ -259,18 +265,42 @@ p {
 
 .white-bg {
     background-color: #FFF;
-    padding: 1rem;
+    padding: 2rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 30px;
 }
-.best-working{
+
+.best-working {
     padding-bottom: 5rem;
 }
-.client-heading{
+
+.client-heading {
     padding-bottom: 5rem;
+}
+.our-services-heading{
+    padding-bottom: 2rem;
+}
+.five-stars{
+    display: flex;
+    justify-content: center;
+}
+.five-stars img{
+    width: 40%;
+}
+.the-arrows-1{
+    width: 3% !important;
+    position: absolute;
+    top: 320px;
+    left: 51%;
+}
+.the-arrows-2{
+    width: 3% !important;
+    position: absolute;
+    top: 320px;
+    left: 46%;
 }
 @media (min-width:1920px) {
     p {
@@ -299,9 +329,10 @@ p {
 }
 
 @media (max-width:999px) {
-    .banner-title{
+    .banner-title {
         font-size: 50px;
     }
+
     .bannerbg {
         background-image: none;
         background: #FFF8E5;

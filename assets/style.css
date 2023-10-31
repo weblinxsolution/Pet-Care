@@ -392,6 +392,51 @@ p {
     padding-bottom: 4rem;
 }
 
+.yellow-body-bg {
+    background-color: #FFF8E5;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.sign-in-input input {
+    border: none;
+    border-radius: 22px;
+    padding: 1rem;
+    font-size: 14px;
+}
+
+.submit-btn button {
+    background-color: #F99A19;
+    border: none;
+    width: 100%;
+    height: 49px;
+    border-radius: 100px;
+}
+
+.before-after-image::after {
+    content: "";
+    position: absolute;
+    right: 25%;
+    top: 15%;
+    height: 200px;
+    width: 200px;
+    background-image: url("./images/red-dots-top.png");
+    background-size: contain;
+}
+
+.before-after-image::before {
+    content: "";
+    position: absolute;
+    left: 25%;
+    bottom: 15%;
+    height: 200px;
+    width: 200px;
+    background-image: url("./images/red-dots-bottom.png");
+    background-size: contain;
+}
+
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;
@@ -593,10 +638,12 @@ p {
         margin-top: -50%;
         padding-top: 60%;
     }
-    .conatct-yellow{
+
+    .conatct-yellow {
         padding: 1rem;
     }
-    h3{
+
+    h3 {
         font-size: 25px;
     }
 }

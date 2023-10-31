@@ -102,16 +102,24 @@ p {
 .footer-icons img {
     width: 10%;
 }
+
 .footer-icons a {
     text-decoration: underline;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .text-grey {
     color: #666666;
 }
-.text-small{
+
+.text-small {
     font-size: 12px;
 }
+
 .half-border {
     border-bottom: 3px solid #F99A19;
     padding-bottom: 5px;
@@ -211,9 +219,11 @@ p {
 .navbar-expand-lg .navbar-nav {
     gap: 1.5rem;
 }
-.our-services{
+
+.our-services {
     padding-bottom: 3rem;
 }
+
 .our-services img {
     width: 10%;
 }
@@ -264,7 +274,7 @@ p {
 
 .feedback-bg {
     background-image: url("./images/feedback-bg.png");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 5%;
     padding-bottom: 9%;
@@ -287,28 +297,34 @@ p {
 .client-heading {
     padding-bottom: 5rem;
 }
-.our-services-heading{
+
+.our-services-heading {
     padding-bottom: 2rem;
 }
-.five-stars{
+
+.five-stars {
     display: flex;
     justify-content: center;
 }
-.five-stars img{
+
+.five-stars img {
     width: 40%;
 }
-.the-arrows-1{
+
+.the-arrows-1 {
     width: 3% !important;
     position: absolute;
     top: 320px;
     left: 51%;
 }
-.the-arrows-2{
+
+.the-arrows-2 {
     width: 3% !important;
     position: absolute;
     top: 320px;
     left: 46%;
 }
+
 @media (min-width:1920px) {
     p {
         font-size: 21px;
@@ -377,6 +393,18 @@ p {
 }
 
 @media (max-width:770px) {
+    .message-box-icon a {
+        font-size: 10px;
+    }
+
+    .message-box-icon img {
+        width: 15%;
+    }
+
+    .message-box-icon-1 img {
+        width: 10% !important;
+    }
+
     .bannerbg {
         margin-top: -19%;
         padding-top: 25%;
@@ -384,6 +412,35 @@ p {
 }
 
 @media (max-width:680px) {
+    p{
+        font-size: 14px;
+    }
+    .spacing{
+        margin-top: 1rem;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h3{
+        font-size: 30px;
+    }
+    .our-services-heading {
+        padding: 0;
+    }
+
+    .our-services {
+        padding-bottom: 1rem;
+    }
+
+    .white-bg {
+        padding: 1rem;
+    }
+
+    .feedback-bg {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+    }
+
     .bannerbg {
         margin-top: -20%;
         padding-top: 25%;
@@ -395,6 +452,7 @@ p {
 }
 
 @media (max-width:580px) {
+
     .bannerbg {
         margin-top: -50%;
         padding-top: 60%;

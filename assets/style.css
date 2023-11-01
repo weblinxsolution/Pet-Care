@@ -685,6 +685,9 @@ p {
 }
 
 @media (max-width:680px) {
+    .sitter-image img{
+        width: 45%;
+    }
     .before-after-image::after {
         background-image: none;
     }

@@ -167,6 +167,13 @@ p {
     margin: 0;
 }
 
+.white-bg-services {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
+    padding: 2rem 1rem;
+}
+
 .globle-btn button {
     background: #F99A19;
     font-style: italic;
@@ -176,6 +183,17 @@ p {
     border-radius: 100px;
     width: 210px;
     padding: 15px 0;
+}
+
+.globle-btn-1 button {
+    background: #F99A19;
+    /* font-style: italic; */
+    color: #FFF;
+    font-size: 16px;
+    border: none;
+    border-radius: 100px;
+    width: 170px;
+    padding: 10px 0;
 }
 
 .bannerbg {
@@ -333,6 +351,22 @@ p {
     padding-bottom: 4%;
     padding-top: 4%;
 
+}
+
+.about-banner-1 {
+    background-image: url("./images/services-banner.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 3%;
+    padding-top: 4%;
+
+}
+
+.heading-left-image-1 {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .about-banner-img {
@@ -516,19 +550,84 @@ p {
     box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
     padding: 2rem;
 }
-.create-req-bg select{
-    border: none;
-    padding: 1rem;
-    border-radius: 10;
-    background-color: #F9F9F9;
-}
-.create-req-bg textarea{
+
+.create-req-bg select {
     border: none;
     padding: 1rem;
     border-radius: 10;
     background-color: #F9F9F9;
 }
 
+.create-req-bg textarea {
+    border: none;
+    padding: 1rem;
+    border-radius: 10;
+    background-color: #F9F9F9;
+}
+
+.select-services {
+    border: 1px solid #AFAFAF;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    transition: .5s;
+}
+
+.select-services:hover {
+    border: 1px solid #F99A19;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.small-icon {
+    width: 25px;
+}
+
+.negetive-section {
+    margin-top: -5rem;
+}
+
+.my-location-input input {
+    padding: .6rem;
+    border-radius: 10px;
+    border: 1px solid #AFAFAF;
+    background: #FFF;
+}
+
+.sort-by {}
+
+.tag-balls {
+    width: 40px;
+    gap: 1rem;
+}
+
+.golden-retriver-img {
+    width: 250px;
+}
+
+.category {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.10);
+    overflow: hidden;
+}
+.inner-pad{
+    padding: 1rem;
+}
+.heart-react{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.google-map{
+    position: sticky;
+    top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;

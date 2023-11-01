@@ -604,9 +604,6 @@ p {
     gap: 1rem;
 }
 
-.golden-retriver-img {
-    width: 250px;
-}
 
 .category {
     border-radius: 20px;
@@ -614,20 +611,24 @@ p {
     box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.10);
     overflow: hidden;
 }
-.inner-pad{
+
+.inner-pad {
     padding: 1rem;
 }
-.heart-react{
+
+.heart-react {
     position: absolute;
     top: 10px;
     right: 10px;
 }
-.google-map{
+
+.google-map {
     position: sticky;
     top: 10px;
     border-radius: 10px;
     overflow: hidden;
 }
+
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;
@@ -702,6 +703,13 @@ p {
 }
 
 @media (max-width:999px) {
+
+    .heading-left-image-1 {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
     /* banner image red dots */
     .image-surond-img::before {

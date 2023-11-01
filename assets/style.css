@@ -811,6 +811,20 @@ p {
 }
 
 @media (max-width:680px) {
+    .about-banner-1 {
+        background-image: none;
+        background-color: #FFF8E5;
+        padding-bottom: 10%;
+    }
+
+    .negetive-section {
+        margin-top: 1rem;
+    }
+
+    .heading-left-image-1 {
+        height: 100px;
+    }
+
     .sitter-image img {
         width: 45%;
     }

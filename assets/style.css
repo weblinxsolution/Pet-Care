@@ -378,8 +378,8 @@ p {
     background-image: url('./images/red-dots-top.png');
     background-repeat: no-repeat;
     background-size: contain;
-    right: 0%;
-    top: -20%;
+    right: -4%;
+    top: -37%;
 }
 
 /* end */
@@ -508,7 +508,25 @@ p {
     padding-top: 10%;
     padding-bottom: 10%;
     background-repeat: no-repeat;
+}
 
+.create-req-bg {
+    background-color: #FFF;
+    border-radius: 20px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.10);
+    padding: 2rem;
+}
+.create-req-bg select{
+    border: none;
+    padding: 1rem;
+    border-radius: 10;
+    background-color: #F9F9F9;
+}
+.create-req-bg textarea{
+    border: none;
+    padding: 1rem;
+    border-radius: 10;
+    background-color: #F9F9F9;
 }
 
 @media (min-width:1920px) {
@@ -585,23 +603,24 @@ p {
 }
 
 @media (max-width:999px) {
-    
+
     /* banner image red dots */
     .image-surond-img::before {
-       
+
         background-image: none;
-       
+
     }
 
     .image-surond-img::after {
-        
+
         background-image: none;
-        
+
     }
+
     .heading-left-image::before {
-        
+
         background-image: none;
-       
+
     }
 
     /* end */
@@ -685,9 +704,10 @@ p {
 }
 
 @media (max-width:680px) {
-    .sitter-image img{
+    .sitter-image img {
         width: 45%;
     }
+
     .before-after-image::after {
         background-image: none;
     }

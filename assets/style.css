@@ -628,7 +628,9 @@ p {
     border-radius: 10px;
     overflow: hidden;
 }
-
+.error-text{
+    font-size: 250px;
+}
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;

@@ -348,9 +348,7 @@ p {
     background-image: url("./images/about-banner-bg.png");
     background-size: 100%;
     background-repeat: no-repeat;
-    padding-bottom: 4%;
     padding-top: 4%;
-
 }
 
 .about-banner-1 {
@@ -361,14 +359,21 @@ p {
     padding-top: 4%;
 
 }
-
+.text-grey{
+    color: #B1B1B1 !important;
+}
+.color-icons-inner{
+    width: 40px;
+}
 .heading-left-image-1 {
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
+.in-detail-page i{
+    font-size: 20px !important;
+}
 .about-banner-img {
     display: flex;
     justify-content: center;
@@ -628,9 +633,11 @@ p {
     border-radius: 10px;
     overflow: hidden;
 }
-.error-text{
+
+.error-text {
     font-size: 250px;
 }
+
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;

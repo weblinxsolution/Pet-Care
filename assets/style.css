@@ -359,21 +359,31 @@ p {
     padding-top: 4%;
 
 }
-.text-grey{
+
+.text-grey {
     color: #B1B1B1 !important;
+    font-size: 16px !important;
 }
-.color-icons-inner{
+
+.color-icons-inner {
     width: 40px;
 }
+
+.user-reviews i {
+    font-size: 18px !important;
+}
+
 .heading-left-image-1 {
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.in-detail-page i{
+
+.in-detail-page i {
     font-size: 20px !important;
 }
+
 .about-banner-img {
     display: flex;
     justify-content: center;
@@ -637,7 +647,16 @@ p {
 .error-text {
     font-size: 250px;
 }
-
+.proifle-detail-page{
+    width: 55px;
+}
+.give-rating-stars i{
+    font-size: 30px;
+}
+.client-feedback-text-area textarea{
+    border-radius: 10px;
+    border: 1px solid #AAAAAA;
+}
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;

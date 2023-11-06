@@ -980,9 +980,10 @@ p {
 }
 
 @media (max-width:580px) {
-    .skills-point ul{
-padding-left: 1px;
+    .skills-point ul {
+        padding-left: 1px;
     }
+
     select option {
         font-size: 11px !important;
     }

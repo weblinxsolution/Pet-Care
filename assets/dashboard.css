@@ -716,7 +716,7 @@ input:focus-visible {
 }
 
 .db-profile-left {
-    width: 100px;
+    width: 80px;
 }
 
 .title-name {
@@ -1780,6 +1780,37 @@ video {
 
 .file-label:hover {
     background-color: #F99A19;
+}
+
+.payment-slip-white-bg {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+}
+
+.billing-adress-inut-area input {
+    border: none;
+    background: #F9F9F9;
+    padding: 15px 15px;
+    font-size: 14px;
+}
+
+.paypal-logo img {
+    width: 45%;
+}
+
+.pay-by-card-img img {
+    width: 11% !important;
+}
+
+.pay-now-btn button {
+    background-color: #F99A19;
+    padding: 8px 35px;
+    color: #FFF;
+    border: none;
+    border-radius: 100px;
+    margin-top: 1rem;
 }
 
 @media (max-width:1920px) {

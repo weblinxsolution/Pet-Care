@@ -165,6 +165,7 @@ p {
     background-repeat: no-repeat;
     background-position: center;
     padding-top: 5%;
+    overflow: hidden;
     padding-bottom: 5%;
 }
 
@@ -768,9 +769,9 @@ p {
     background-image: url('./images/shape-footer-left.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 110px;
+    width: 90px;
     height: 250px;
-    left: -10rem;
+    left: -35%;
 }
 
 .after-red-images::after {
@@ -779,10 +780,10 @@ p {
     background-image: url('./images/shape-footer-right.png');
     background-size: contain;
     background-repeat: no-repeat;
-    width: 110px;
+    width: 90px;
     height: 250px;
     top: 0;
-    right: -10rem;
+    right: -35%;
 }
 
 .banner-overlay-images {

@@ -565,7 +565,8 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="paypal-logo d-flex align-items-center justify-content-lg-end gap-1 pay-by-card-img">
+                                        <div
+                                            class="paypal-logo d-flex align-items-center justify-content-lg-end gap-1 pay-by-card-img">
                                             <img src="./assets/images/Visa.png" alt="">
                                             <img src="./assets/images/Discover.png" alt="">
                                             <img src="./assets/images/Maestro.png" alt="">
@@ -586,9 +587,30 @@
                                             <input type="number" class="form-control" placeholder="CVV">
                                         </div>
                                         <div class="pay-now-btn">
-                                            <button>
+                                            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                                 Pay Now
                                             </button>
+                                        </div>
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="exampleModal" tabindex="-1"
+                                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal-dialog modal-dialog-centered">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+
+                                                    </div>
+                                                    <div class="modal-body text-center">
+                                                        <h2>Thank You</h2>
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                                        <div class="pay-now-btn mb-4">
+                                                            <button type="button" class=""
+                                                                data-bs-dismiss="modal">Continue
+                                                            </button>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

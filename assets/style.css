@@ -731,6 +731,22 @@ p {
     padding: 1rem;
 }
 
+.golden-retriver-img-1 {
+    width: 280px;
+}
+
+.dash-text-sm {
+    font-size: 14px;
+}
+
+.inner-circle-img {
+    width: 30px;
+}
+
+.give-line-height {
+    line-height: 17px;
+}
+
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;

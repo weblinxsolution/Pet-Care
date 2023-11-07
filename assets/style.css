@@ -747,6 +747,44 @@ p {
     line-height: 17px;
 }
 
+.custdrop-down {
+    background-color: transparent !important;
+}
+
+.before-red-image::before {
+    content: '';
+    position: absolute;
+    background-image: url('./images/shape-footer-left.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 250px;
+    left: -10rem;
+}
+
+.after-red-images::after {
+    content: '';
+    position: absolute;
+    background-image: url('./images/shape-footer-right.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 110px;
+    height: 250px;
+    top: 0;
+    right: -10rem;
+}
+.banner-overlay-images{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 5% !important;
+}
+.banner-overlay-images-2{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 5% !important;
+}
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;
@@ -782,7 +820,12 @@ p {
 }
 
 @media (max-width:1366px) {
-
+    .banner-overlay-images{
+        display: none;
+       }
+       .banner-overlay-images-2{
+          display: none;
+       }
     /* banner image red dots */
     .image-surond-img::before {
         content: '';
@@ -821,6 +864,7 @@ p {
 }
 
 @media (max-width:999px) {
+
 
     .heading-left-image-1 {
         height: 300px;
@@ -874,8 +918,9 @@ p {
     }
 
     .bannerbg {
-        background-image: none;
-        background: #FFF8E5;
+        background-image: url("./images/about-banner-bg.png");
+        background-size: cover;
+        /* background: #FFF8E5; */
         margin-top: -11%;
     }
 
@@ -994,7 +1039,7 @@ p {
     }
 
     h2 {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     h3 {
@@ -1014,8 +1059,8 @@ p {
     }
 
     .feedback-bg {
-        padding-top: 2rem !important;
-        padding-bottom: 2rem !important;
+        padding-top: 4rem !important;
+        padding-bottom: 4rem !important;
     }
 
     .bannerbg {
@@ -1023,12 +1068,50 @@ p {
         padding-top: 25%;
     }
 
+    .fs-4 {
+        font-size: 18px !important;
+    }
+
     .banner-title {
-        font-size: 50px;
+        font-size: 37px;
     }
 }
 
 @media (max-width:580px) {
+    .client-heading {
+        padding-bottom: 2rem;
+    }
+
+    .white-bg {
+        border-radius: 20px;
+    }
+
+    .our-services-border {
+        border: 5px solid #F8F8F8;
+        border-radius: 60px;
+        height: 170px;
+        width: 163px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .our-services-border p {
+        font-size: 14px !important;
+    }
+
+    .on-grids {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .groming img {
+        width: 60%;
+        margin-top: 1rem;
+    }
+
     .skills-point ul {
         padding-left: 1px;
     }

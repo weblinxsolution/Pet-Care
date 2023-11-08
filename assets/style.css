@@ -591,6 +591,7 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 .before-after-image1::before {
     bottom: -100px !important;
 }
@@ -910,6 +911,12 @@ ul {
     font-weight: 500;
 }
 
+.card-inner-star i {
+    font-size: 20px;
+}
+.wishList{
+    fill: red;
+}
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;

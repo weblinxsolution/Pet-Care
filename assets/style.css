@@ -542,6 +542,7 @@ p {
     border-radius: 22px;
     padding: 1rem;
     font-size: 14px;
+    background: #FFF;
 }
 
 .sign-in-input input::placeholder {
@@ -887,6 +888,23 @@ ul {
 
 .uploaded-images .showcase-imges {
     width: 100px;
+}
+
+.no-border-register {
+    border: none;
+    border-radius: 100px;
+    background-color: #FFF !important;
+}
+
+.browse-register {
+    border-radius: 50px;
+    padding: 10px 30px;
+}
+
+.lable-register {
+    color: #798076;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 @media (min-width:1920px) {

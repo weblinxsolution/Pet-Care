@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Remix icon cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- Slick Css -->
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <!-- style css link -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Pet-Care Services</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <section class="top-submenu">
+        <header>
+            <div class="wrapper">
+                <div class="row justify-content-center align-items-center pt-2">
+                    <div class="col-6 d-md-flex align-items-center justify-content-start">
+
+                        <div class="d-flex align-items-center message-box-icon gap-1">
+                            <img src="./assets/images/message.png" alt="">
+                            <a href="#">support@mail.com</a>
+                        </div>
+                        <div class="d-flex align-items-center message-box-icon message-box-icon-1 gap-1">
+                            <img src="./assets/images/phone.png" alt="">
+                            <a href="#" class="w-100">+123 456 7890</a>
+                        </div>
+
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <div class="socail-header-icons">
+                            <img src="./assets/images/facbook-icon.png" alt="">
+                            <img src="./assets/images/twitter.png" alt="">
+                            <img src="./assets/images/instagram.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <nav class="navbar navbar-expand-lg ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Logo</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.html">About</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link active dropdown-toggle" href="#" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        Services
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <div class="d-lg-flex align-items-center justify-content-center">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="23" height="18"
+                                                viewBox="0 0 23 18" fill="none">
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M6.50829 3.44624e-07H6.54615H16.4538H16.4917C17.4504 -1.12683e-05 18.2238 -1.09971e-05 18.85 0.0503542C19.4947 0.102229 20.061 0.211808 20.585 0.474655C21.4172 0.892162 22.0938 1.55837 22.5179 2.37779C22.7849 2.89365 22.8962 3.45124 22.9488 4.08603C23 4.70258 23 5.46393 23 6.40786V6.44516V11.5548V11.5921C23 12.5361 23 13.2975 22.9488 13.914C22.8962 14.5488 22.7849 15.1063 22.5179 15.6223C22.0938 16.4417 21.4172 17.1078 20.585 17.5254C20.061 17.7882 19.4947 17.8978 18.85 17.9496C18.2238 18 17.4505 18 16.4917 18H16.4538H6.54615H6.50827C5.54955 18 4.77626 18 4.15006 17.9496C3.50532 17.8978 2.93899 17.7882 2.41505 17.5254C1.58279 17.1078 0.906141 16.4417 0.482092 15.6223C0.215127 15.1063 0.103831 14.5488 0.0511429 13.914C-1.14506e-05 13.2975 -1.14447e-05 12.5361 3.50211e-07 11.5921V11.5548V6.44516V6.40788C-1.14447e-05 5.46395 -1.14506e-05 4.70258 0.0511429 4.08603C0.103831 3.45124 0.215127 2.89365 0.482092 2.37779C0.906141 1.55837 1.58279 0.892162 2.41505 0.474655C2.93899 0.211808 3.50532 0.102229 4.15006 0.0503542C4.77626 -1.09971e-05 5.54956 -1.12683e-05 6.50829 3.44624e-07ZM4.29414 1.78651C3.7588 1.82958 3.45123 1.90986 3.21825 2.02673C2.71891 2.27723 2.31292 2.67696 2.05849 3.1686C1.93979 3.39798 1.85825 3.7008 1.8145 4.22789C1.7802 4.64127 1.77189 5.14513 1.76987 5.80645H21.2302C21.2282 5.14513 21.2198 4.64127 21.1855 4.22789C21.1417 3.7008 21.0602 3.39798 20.9416 3.1686C20.687 2.67696 20.281 2.27723 19.7818 2.02673C19.5488 1.90986 19.2412 1.82958 18.7058 1.78651C18.1602 1.74261 17.4594 1.74194 16.4538 1.74194H6.54615C5.5407 1.74194 4.8398 1.74261 4.29414 1.78651ZM1.76923 11.5548V7.54839H21.2308V11.5548C21.2308 12.5448 21.2301 13.2349 21.1855 13.7721C21.1417 14.2992 21.0602 14.6021 20.9416 14.8314C20.687 15.323 20.281 15.7227 19.7818 15.9733C19.5488 16.0901 19.2412 16.1704 18.7058 16.2135C18.1602 16.2574 17.4594 16.2581 16.4538 16.2581H6.54615C5.5407 16.2581 4.8398 16.2574 4.29414 16.2135C3.7588 16.1704 3.45123 16.0901 3.21825 15.9733C2.71891 15.7227 2.31292 15.323 2.05849 14.8314C1.93979 14.6021 1.85825 14.2992 1.8145 13.7721C1.76992 13.2349 1.76923 12.5448 1.76923 11.5548ZM4.42308 11.6129C3.93452 11.6129 3.53846 12.0029 3.53846 12.4839C3.53846 12.9649 3.93452 13.3548 4.42308 13.3548H10.3205C10.8091 13.3548 11.2051 12.9649 11.2051 12.4839C11.2051 12.0029 10.8091 11.6129 10.3205 11.6129H4.42308Z"
+                                                    fill="black" />
+                                            </svg>
+                                            568
+                                        </a>
+
+                                    </li>
+                                    <li class="nav-item">
+
+                                        <a href="#" class="nav-link"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                                height="21" viewBox="0 0 20 21" fill="none">
+                                                <path
+                                                    d="M13.7594 5.02224C13.7594 7.45029 11.9501 9.18466 10.0059 9.18466C8.06923 9.18466 6.2525 7.44557 6.2525 5.04561C6.2525 2.70072 8.05013 1 10.0059 1C11.9708 1 13.7594 2.6633 13.7594 5.02224ZM17.4688 20H2.54307C1.65335 20 1.26147 19.8669 1.11121 19.7695C1.05743 19.7347 1.04489 19.7114 1.0372 19.6952C1.02485 19.6691 1 19.5985 1 19.4466C1 18.3336 1.74108 16.7997 3.32344 15.5048C4.87434 14.2357 7.15178 13.2753 10.0059 13.2753C12.8537 13.2753 15.1281 14.2354 16.6777 15.5046C18.2588 16.7995 19 18.3335 19 19.4466C19 19.5985 18.9752 19.6694 18.9627 19.6958C18.9548 19.7126 18.9421 19.7358 18.8888 19.7704C18.7402 19.8671 18.3517 20 17.4688 20Z"
+                                                    stroke="black" stroke-width="2" />
+                                            </svg>
+                                        </a>
+
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                                                viewBox="0 0 22 22" fill="none">
+                                                <g clip-path="url(#clip0_1_1042)">
+                                                    <path
+                                                        d="M19.6909 2.125C20.7221 3.01302 21.4096 4.06575 21.7534 5.2832C22.0971 6.50065 22.1115 7.66797 21.7964 8.78516C21.4813 9.90234 20.937 10.862 20.1636 11.6641L12.644 19.3125C12.1857 19.7708 11.6414 20 11.0112 20C10.381 20 9.83673 19.7708 9.3784 19.3125L1.85887 11.6641C1.08543 10.862 0.541157 9.89518 0.226053 8.76367C-0.0890512 7.63216 -0.0747283 6.46484 0.269022 5.26172C0.612772 4.05859 1.30027 3.01302 2.33152 2.125C3.56329 1.09375 5.01707 0.642578 6.69285 0.771484C8.36863 0.900391 9.80808 1.56641 11.0112 2.76953C12.2143 1.56641 13.6538 0.900391 15.3296 0.771484C17.0054 0.642578 18.4591 1.09375 19.6909 2.125ZM18.7026 10.2031C19.5333 9.34375 19.9487 8.29102 19.9487 7.04492C19.9487 5.79883 19.4331 4.6888 18.4018 3.71484C17.5425 3.02734 16.547 2.72656 15.4155 2.8125C14.284 2.89844 13.3172 3.35677 12.5151 4.1875L11.0112 5.69141L9.5073 4.1875C8.70522 3.35677 7.73842 2.89844 6.60691 2.8125C5.4754 2.72656 4.47996 3.02734 3.62058 3.71484C2.58933 4.6888 2.07371 5.79883 2.07371 7.04492C2.07371 8.29102 2.48907 9.34375 3.3198 10.2031L10.8823 17.8516C10.9682 17.9661 11.0542 17.9661 11.1401 17.8516L18.7026 10.2031Z"
+                                                        fill="black" />
+                                                </g>
+                                                <defs>
+                                                    <clipPath id="clip0_1_1042">
+                                                        <rect width="22" height="22" fill="white"
+                                                            transform="matrix(1 0 0 -1 0 22)" />
+                                                    </clipPath>
+                                                </defs>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+    </section>
+    <!-- section-1 services -->
+    <section class="about-banner-1">
+        <div class="wrapper">
+            <div class="row align-items-center ">
+                <div class="col-md-6 position-relative heading-left-image heading-left-image-1">
+                    <div>
+                        <h1>Showcase</h1>
+                    </div>
+                    <div class="globle-btn">
+                        <button>Get Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section-2 negetive-section -->
+    <div class="wrapper">
+        <section class="negetive-section">
+            <div class="white-bg-services">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="fw-bold text-black">
+                            I’m Looking For
+                        </p>
+                    </div>
+                    <div class="col-lg-6 d-lg-block d-none">
+                        <p class="fw-bold text-black">
+                            Near Me In
+                        </p>
+                    </div>
+                </div>
+                <div class="row align-items-center ">
+                    <div class="col-lg-6 col-4 my-location-input">
+                        <input type="email" class="form-control" placeholder="Search">
+                    </div>
+                    <div class="col-lg-6 d-lg-none d-block mt-4">
+                        <p class="fw-bold text-black">
+                            Near Me In
+                        </p>
+                    </div>
+                    <div class="col-lg-4 my-location-input">
+                        <input type="password" class="form-control" placeholder="Location">
+                    </div>
+                    <div class="col-lg-2 mt-lg-0 mt-4">
+                        <div class="globle-btn-1">
+                            <button>Search</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- section-3 Browse data -->
+    <section class="spacing">
+        <div class="wrapper">
+            <div class="row">
+                <div class="col-lg-8 mb-4">
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <div>
+                                <p class="text-black fs-5">
+                                    <span class="text-orange fw-bold">Scroll Down</span>
+                                    To browse 1460 Pet Boarding near your <br> in Puchong,
+                                    Selangor
+                                </p>
+                            </div>
+                        </div>
+                        <div class="sort-by">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Sort By</option>
+                                <option value="1">High To Low</option>
+                                <option value="2">Low To High</option>
+                                <option value="3">Recommanded</option>
+                            </select>
+                        </div>
+                    </div>
+                    <!-- Items -->
+                    <a href="showcase-details.html">
+                        <div class="row mt-4 category align-items-center">
+                            <div class="col-lg-4 px-0 position-relative">
+                                <img src="./assets/images/retiver-puppy.png" alt="" class="w-100 h-100"
+                                    style="object-fit: cover;">
+                                <div class="heart-react cursor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="30" viewBox="0 0 34 30"
+                                        fill="none">
+                                        <path
+                                            d="M30.4004 2.14286C31.9925 3.52679 33.054 5.16741 33.5847 7.06473C34.1154 8.96206 34.1375 10.7812 33.651 12.5223C33.1645 14.2634 32.3242 15.7589 31.1301 17.0089L19.5209 28.9286C18.8133 29.6429 17.973 30 17 30C16.027 30 15.1867 29.6429 14.4791 28.9286L2.86987 17.0089C1.67577 15.7589 0.835482 14.2522 0.348999 12.4888C-0.137484 10.7254 -0.115372 8.90625 0.415338 7.03125C0.946047 5.15625 2.00747 3.52679 3.59959 2.14286C5.5013 0.535715 7.74576 -0.16741 10.333 0.0334835C12.9202 0.234375 15.1425 1.27232 17 3.14732C18.8575 1.27232 21.0798 0.234375 23.667 0.0334835C26.2542 -0.16741 28.4987 0.535715 30.4004 2.14286ZM28.8746 14.7321C30.1572 13.3929 30.7984 11.7522 30.7984 9.81027C30.7984 7.86831 30.0024 6.13839 28.4102 4.62054C27.0835 3.54911 25.5466 3.08036 23.7997 3.21429C22.0528 3.34822 20.5602 4.0625 19.3219 5.35714L17 7.70089L14.6781 5.35714C13.4398 4.0625 11.9472 3.34822 10.2003 3.21429C8.45337 3.08036 6.91653 3.54911 5.58975 4.62054C3.99762 6.13839 3.20156 7.86831 3.20156 9.81027C3.20156 11.7522 3.84283 13.3929 5.12538 14.7321L16.801 26.6518C16.9337 26.8304 17.0663 26.8304 17.199 26.6518L28.8746 14.7321Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 d-flex inner-pad">
+                                <div>
+                                    <div>
+                                        <h6>
+                                            Lorem ipsum dolor
+                                        </h6>
+                                    </div>
+                                    <div class="text-small mb-1">
+                                        <span class="text-orange">
+                                            Lorem ipsum dolor,
+                                        </span>
+                                        <span class="text-grey-1 fw-med mx-1">
+                                            4.60km
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-grey-2">
+                                            Lorem ipsum dolor sit amet consectetur. Sem. sit amet consectetur. Sem.
+                                            mattis vulputate scelerisque est. Eu vitae massa ligula varius ultricies.
+                                            Est pretium arcu hac volutpat integer habitant sagittis feugiat augue. Et ia
+                                            Est pretium arcu hac volutpat integer habitant sagittis feugiat augue.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="showcase-details.html">
+                        <div class="row mt-4 category align-items-center">
+                            <div class="col-lg-4 px-0 position-relative">
+                                <img src="./assets/images/retiver-puppy.png" alt="" class="w-100 h-100"
+                                    style="object-fit: cover;">
+                                <div class="heart-react cursor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="30" viewBox="0 0 34 30"
+                                        fill="none">
+                                        <path
+                                            d="M30.4004 2.14286C31.9925 3.52679 33.054 5.16741 33.5847 7.06473C34.1154 8.96206 34.1375 10.7812 33.651 12.5223C33.1645 14.2634 32.3242 15.7589 31.1301 17.0089L19.5209 28.9286C18.8133 29.6429 17.973 30 17 30C16.027 30 15.1867 29.6429 14.4791 28.9286L2.86987 17.0089C1.67577 15.7589 0.835482 14.2522 0.348999 12.4888C-0.137484 10.7254 -0.115372 8.90625 0.415338 7.03125C0.946047 5.15625 2.00747 3.52679 3.59959 2.14286C5.5013 0.535715 7.74576 -0.16741 10.333 0.0334835C12.9202 0.234375 15.1425 1.27232 17 3.14732C18.8575 1.27232 21.0798 0.234375 23.667 0.0334835C26.2542 -0.16741 28.4987 0.535715 30.4004 2.14286ZM28.8746 14.7321C30.1572 13.3929 30.7984 11.7522 30.7984 9.81027C30.7984 7.86831 30.0024 6.13839 28.4102 4.62054C27.0835 3.54911 25.5466 3.08036 23.7997 3.21429C22.0528 3.34822 20.5602 4.0625 19.3219 5.35714L17 7.70089L14.6781 5.35714C13.4398 4.0625 11.9472 3.34822 10.2003 3.21429C8.45337 3.08036 6.91653 3.54911 5.58975 4.62054C3.99762 6.13839 3.20156 7.86831 3.20156 9.81027C3.20156 11.7522 3.84283 13.3929 5.12538 14.7321L16.801 26.6518C16.9337 26.8304 17.0663 26.8304 17.199 26.6518L28.8746 14.7321Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 d-flex inner-pad">
+                                <div>
+                                    <div>
+                                        <h6>
+                                            Lorem ipsum dolor
+                                        </h6>
+                                    </div>
+                                    <div class="text-small mb-1">
+                                        <span class="text-orange">
+                                            Lorem ipsum dolor,
+                                        </span>
+                                        <span class="text-grey-1 fw-med mx-1">
+                                            4.60km
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-grey-2">
+                                            Lorem ipsum dolor sit amet consectetur. Sem. sit amet consectetur. Sem.
+                                            mattis vulputate scelerisque est. Eu vitae massa ligula varius ultricies.
+                                            Est pretium arcu hac volutpat integer habitant sagittis feugiat augue. Et ia
+                                            Est pretium arcu hac volutpat integer habitant sagittis feugiat augue.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="showcase-details.html">
+                        <div class="row mt-4 category align-items-center">
+                            <div class="col-lg-4 px-0 position-relative">
+                                <img src="./assets/images/retiver-puppy.png" alt="" class="w-100 h-100"
+                                    style="object-fit: cover;">
+                                <div class="heart-react cursor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="30" viewBox="0 0 34 30"
+                                        fill="none">
+                                        <path
+                                            d="M30.4004 2.14286C31.9925 3.52679 33.054 5.16741 33.5847 7.06473C34.1154 8.96206 34.1375 10.7812 33.651 12.5223C33.1645 14.2634 32.3242 15.7589 31.1301 17.0089L19.5209 28.9286C18.8133 29.6429 17.973 30 17 30C16.027 30 15.1867 29.6429 14.4791 28.9286L2.86987 17.0089C1.67577 15.7589 0.835482 14.2522 0.348999 12.4888C-0.137484 10.7254 -0.115372 8.90625 0.415338 7.03125C0.946047 5.15625 2.00747 3.52679 3.59959 2.14286C5.5013 0.535715 7.74576 -0.16741 10.333 0.0334835C12.9202 0.234375 15.1425 1.27232 17 3.14732C18.8575 1.27232 21.0798 0.234375 23.667 0.0334835C26.2542 -0.16741 28.4987 0.535715 30.4004 2.14286ZM28.8746 14.7321C30.1572 13.3929 30.7984 11.7522 30.7984 9.81027C30.7984 7.86831 30.0024 6.13839 28.4102 4.62054C27.0835 3.54911 25.5466 3.08036 23.7997 3.21429C22.0528 3.34822 20.5602 4.0625 19.3219 5.35714L17 7.70089L14.6781 5.35714C13.4398 4.0625 11.9472 3.34822 10.2003 3.21429C8.45337 3.08036 6.91653 3.54911 5.58975 4.62054C3.99762 6.13839 3.20156 7.86831 3.20156 9.81027C3.20156 11.7522 3.84283 13.3929 5.12538 14.7321L16.801 26.6518C16.9337 26.8304 17.0663 26.8304 17.199 26.6518L28.8746 14.7321Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 d-flex inner-pad">
+                                <div>
+                                    <div>
+                                        <h6>
+                                            Lorem ipsum dolor
+                                        </h6>
+                                    </div>
+                                    <div class="text-small mb-1">
+                                        <span class="text-orange">
+                                            Lorem ipsum dolor,
+                                        </span>
+                                        <span class="text-grey-1 fw-med mx-1">
+                                            4.60km
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-grey-2">
+                                            Lorem ipsum dolor sit amet consectetur. Sem. sit amet consectetur. Sem.
+                                            mattis vulputate scelerisque est. Eu vitae massa ligula varius ultricies.
+                                            Est pretium arcu hac volutpat integer habitant sagittis feugiat augue. Et ia
+                                            Est pretium arcu hac volutpat integer habitant sagittis feugiat augue.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="showcase-details.html">
+                        <div class="row mt-4 category align-items-center">
+                            <div class="col-lg-4 px-0 position-relative">
+                                <img src="./assets/images/retiver-puppy.png" alt="" class="w-100 h-100"
+                                    style="object-fit: cover;">
+                                <div class="heart-react cursor">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="30" viewBox="0 0 34 30"
+                                        fill="none">
+                                        <path
+                                            d="M30.4004 2.14286C31.9925 3.52679 33.054 5.16741 33.5847 7.06473C34.1154 8.96206 34.1375 10.7812 33.651 12.5223C33.1645 14.2634 32.3242 15.7589 31.1301 17.0089L19.5209 28.9286C18.8133 29.6429 17.973 30 17 30C16.027 30 15.1867 29.6429 14.4791 28.9286L2.86987 17.0089C1.67577 15.7589 0.835482 14.2522 0.348999 12.4888C-0.137484 10.7254 -0.115372 8.90625 0.415338 7.03125C0.946047 5.15625 2.00747 3.52679 3.59959 2.14286C5.5013 0.535715 7.74576 -0.16741 10.333 0.0334835C12.9202 0.234375 15.1425 1.27232 17 3.14732C18.8575 1.27232 21.0798 0.234375 23.667 0.0334835C26.2542 -0.16741 28.4987 0.535715 30.4004 2.14286ZM28.8746 14.7321C30.1572 13.3929 30.7984 11.7522 30.7984 9.81027C30.7984 7.86831 30.0024 6.13839 28.4102 4.62054C27.0835 3.54911 25.5466 3.08036 23.7997 3.21429C22.0528 3.34822 20.5602 4.0625 19.3219 5.35714L17 7.70089L14.6781 5.35714C13.4398 4.0625 11.9472 3.34822 10.2003 3.21429C8.45337 3.08036 6.91653 3.54911 5.58975 4.62054C3.99762 6.13839 3.20156 7.86831 3.20156 9.81027C3.20156 11.7522 3.84283 13.3929 5.12538 14.7321L16.801 26.6518C16.9337 26.8304 17.0663 26.8304 17.199 26.6518L28.8746 14.7321Z"
+                                            fill="white" />
+                                    </svg>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 d-flex inner-pad">
+                                <div>
+                                    <div>
+                                        <h6>
+                                            Lorem ipsum dolor
+                                        </h6>
+                                    </div>
+                                    <div class="text-small mb-1">
+                                        <span class="text-orange">
+                                            Lorem ipsum dolor,
+                                        </span>
+                                        <span class="text-grey-1 fw-med mx-1">
+                                            4.60km
+                                        </span>
+                                    </div>
+                                    <div>
+                                        <p class="mb-0 text-grey-2">
+                                            Lorem ipsum dolor sit amet consectetur. Sem. sit amet consectetur. Sem.
+                                            mattis vulputate scelerisque est. Eu vitae massa ligula varius ultricies.
+                                            Est pretium arcu hac volutpat integer habitant sagittis feugiat augue. Et ia
+                                            Est pretium arcu hac volutpat integer habitant sagittis feugiat augue.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <!-- items End -->
+                    <div class="pagination mt-4">
+
+                        <ul >
+                            <li class="arrow-active">
+                                <a href=""><span>
+                                       < </span></a>
+                            </li>
+                            <li class="active">
+                                <a href=""><span>1</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>2</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>3</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>...</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>9</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>10</span></a>
+                            </li>
+                            <li>
+                                <a href=""><span>></span></a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="google-map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52913038.383717686!2d-161.83343629807604!3d35.95784059977629!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e0!3m2!1sen!2s!4v1698842170220!5m2!1sen!2s"
+                            class="vh-100 w-100" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <section>
+        <footer class="footer-bg">
+            <div class="wrapper">
+                <div class="row">
+                    <div class="col-lg-4 mb-lg-0 mb-5 before-red-image position-relative">
+                        <div>
+                            <h2>
+                                Logo
+                            </h2>
+                        </div>
+                        <div>
+                            <p>
+                                At vero eos et accusam justo duo dolo res et
+                                ea rebum. Stet clita kasd guber gren. Aenean
+                                sollici tudin lorem qsben elit clita.
+                            </p>
+                        </div>
+                        <div>
+                            <div class="d-flex align-items-center footer-icons">
+                                <img src="./assets/images/support-icon.png" alt="">
+                                <a href="#" class="fst-italic  text-grey-1">support@mail.com</a>
+                            </div>
+
+                            <div class="d-flex align-items-center footer-icons">
+                                <img src="./assets/images/location-icon.png" alt="">
+                                <a href="#" class="fst-italic  text-grey-1">Eighth Avenue 487, New York</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-lg-0 mb-5">
+                        <div>
+                            <h6><span class="half-border">Quick</span> Links</h6>
+                        </div>
+                        <div class="d-flex flex-column mt-4 gap-2">
+                            <a href="index.html" class="text-grey-1 fw-bold"><span
+                                    class="text-orange indicate-arrow">></span>Home</a>
+                            <a href="about.html" class="text-grey-1 fw-bold"><span
+                                    class="text-orange indicate-arrow">></span>About</a>
+                            <a href="services.html" class="text-grey-1 fw-bold"><span
+                                    class="text-orange indicate-arrow">></span>Service</a>
+                            <a href="contact.html" class="text-grey-1 fw-bold"><span
+                                    class="text-orange indicate-arrow">></span>Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12 after-red-images position-relative">
+                        <div>
+                            <h6><span class="half-border">Work</span>ing Hours</h6>
+                        </div>
+                        <div class="mt-4">
+                            <div class="shadule d-flex justify-content-between">
+                                <p class="fst-italic">Monday - Saturday</p>
+                                <p class="text-black fw-bold">08AM - 10PM</p>
+                            </div>
+                            <div class="shadule d-flex justify-content-between">
+                                <p class="fst-italic">Sunday</p>
+                                <p class="text-black fw-bold">08AM - 10PM</p>
+                            </div>
+
+                            <div class="shadule headphone-img d-flex justify-content-start gap-3">
+                                <img src="./assets/images/headphones.png" alt="">
+                                <div>
+                                    <h6 class="text-orange">+123 456 7890</h6>
+                                    <a href="#" class="text-black fst-italic fw-med">Got Questions? Call us 24/7</a>
+                                </div>
+                            </div>
+                            <div class="socail-header-icons-1 justify-content-start mt-4">
+                                <img src="./assets/images/facbook-icon.png" alt="">
+                                <img src="./assets/images/twitter.png" alt="">
+                                <img src="./assets/images/instagram.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div class="copy-right text-center">
+            <p class="text-black fw-bold">Lorem Ipsum – Copyright© 2023 </p>
+        </div>
+    </section>
+</body>
+
+</html>
+<!-- slick script -->
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="./slick/slick.min.js"></script>
+<!-- JQuery cdn -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- bootstrap js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- my js file -->
+<script src="./assets/script.js"></script>

@@ -591,6 +591,9 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
 }
+.before-after-image1::before {
+    bottom: -100px !important;
+}
 
 .loaction-icon {
     position: absolute;

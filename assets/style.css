@@ -684,7 +684,7 @@ p {
 }
 
 .tag-balls-1 img {
-    width: 10%;
+    width: 25%;
 }
 
 ul {
@@ -1212,6 +1212,9 @@ ul {
 }
 
 @media (max-width:580px) {
+    .tag-balls-1 img {
+        width: 10%;
+    }
     .client-heading {
         padding-bottom: 2rem;
     }

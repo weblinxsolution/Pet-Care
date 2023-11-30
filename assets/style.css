@@ -17,8 +17,14 @@ img {
 
 .wrapper {
     max-width: 1300px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin: auto;
+}
+.wrapper2 {
+    max-width: 1600px;
+    padding-left: 2%;
+    padding-right: 2%;
     margin: auto;
 }
 
@@ -986,6 +992,12 @@ ul {
 }
 
 @media (min-width:1920px) {
+    .wrapper2 {
+        max-width: 1900px;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin: auto;
+    }
     .the-arrows-2 {
         top: 365px;
     }

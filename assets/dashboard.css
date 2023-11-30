@@ -962,7 +962,7 @@ input:focus-visible {
 .Review-btn-green button {
     border-radius: 50px;
     background: #F99A19;
-    padding: 15px 30px;
+    padding: 8px 30px;
     border: none;
     color: #FFF;
 }
@@ -2087,7 +2087,7 @@ video {
 @media (max-width:600px) {
     .Review-btn-green button {
         border-radius: 10px;
-        background: #44D400;
+        background: #F99A19;
         padding: 10px 15px;
         border: none;
         color: #FFF;
@@ -2252,7 +2252,7 @@ video {
     } */
     .Review-btn-green button {
         border-radius: 10px;
-        background: #44D400;
+        background: #F99A19;
         padding: 10px 8px;
         border: none;
         color: #FFF;

@@ -151,7 +151,7 @@
                                 <div class="mb-2">
                                     <h3>Lorem ipsum dolor</h3>
                                 </div>
-                                <div class="color-icons d-flex gap-2 mb-2">
+                                <!-- <div class="color-icons d-flex gap-2 mb-2">
                                     <div class="color-icons-inner">
                                         <img src="./assets/images/orange.png" alt="">
                                     </div>
@@ -167,7 +167,7 @@
                                     <div class="color-icons-inner">
                                         <img src="./assets/images/purple.png" alt="">
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="pt-2">
                                     <p><span class="text-orange fs-6 me-2">Lorem ipsum dolor,</span>4.60km</p>
                                 </div>
@@ -497,8 +497,9 @@
                         </div>
 
                         <div class="globle-btn-1 mt-4">
-                            <button>Submit</button>
+                            <button data-bs-toggle="modal" data-bs-target="#exampleModal">Submit</button>
                         </div>
+
 
                     </div>
                 </div>
@@ -525,7 +526,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 d-flex align-items-center justify-content-lg-end tag-balls-1 mt-lg-0 mt-1">
+                            <div
+                                class="col-lg-4 d-flex align-items-center justify-content-lg-end tag-balls-1 mt-lg-0 mt-1">
                                 <img src="./assets/images/orange.png" alt="">
                                 <img src="./assets/images/blue.png" alt="">
                                 <img src="./assets/images/red.png" alt="">
@@ -663,6 +665,34 @@
             <p class="text-black fw-bold">Lorem Ipsum – Copyright© 2023 </p>
         </div>
     </section>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div>
+                        <h6 class="text-center mb-3">
+                            Choose Your Pet For Which You Want Take Service
+                        </h6>
+                    </div>
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>German Shepred</option>
+                            <option value="1">rottwiller</option>
+                            <option value="2">husky</option>
+                            <option value="3">pitbull</option>
+                        </select>
+                    </div>
+                    <div class="modal-btn d-flex justify-content-center">
+                        <button>Submit</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

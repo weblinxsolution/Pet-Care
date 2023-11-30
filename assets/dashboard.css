@@ -101,7 +101,9 @@ td {
     color: #FFF;
 }
 
-
+.headphone-img {
+    width: 80px;
+}
 
 .footer-bg {
     background-image: url("/assests/images/footer-background.svg");
@@ -122,7 +124,7 @@ td {
 }
 
 .footer-bg p {
-    color: #FFF;
+    color: #666766;
 }
 
 .heart-red {
@@ -1812,32 +1814,36 @@ video {
     border-radius: 100px;
     margin-top: 1rem;
 }
-.view-btn{
+
+.view-btn {
     display: flex;
     background-color: #F99A19;
     color: #FFF;
     border: none;
     align-items: center;
     justify-content: center;
-    padding:15px;
+    padding: 15px;
     border-radius: 10px;
     font-size: 14px;
 }
-.view-btn1{
+
+.view-btn1 {
     display: flex;
     background-color: #FCCB28;
     color: #FFF;
     border: none;
     align-items: center;
     justify-content: center;
-    padding:15px;
+    padding: 15px;
     border-radius: 10px;
     font-size: 14px;
 }
-.view-btn-inner{
-   width: 25px;
-   padding-right: 5px;
+
+.view-btn-inner {
+    width: 25px;
+    padding-right: 5px;
 }
+
 @media (max-width:1920px) {
     .fw-med {
         font-weight: 500;
@@ -1979,7 +1985,7 @@ video {
     }
 
     .footer-bg {
-        background-color: #3EB905;
+        background-color: #FFF8E5;
         background-image: none;
     }
 }

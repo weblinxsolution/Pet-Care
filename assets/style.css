@@ -966,6 +966,25 @@ ul {
     padding-bottom: 10px;
 }
 
+.modal-btn button {
+    background-color: #F99A19;
+    color: #FFF;
+    border: none;
+    border-radius: 100px;
+    width: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.form-select:focus {
+    border-color: unset;
+    outline: 0;
+    box-shadow: none;
+}
+.bottom-menu-logout{
+    margin-top: 70% !important;
+}
+
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;
@@ -1322,9 +1341,10 @@ ul {
 }
 
 @media (max-width:390px) {
-    .user-socials img{
+    .user-socials img {
         width: 10%;
     }
+
     .profile-pic-owner {
         width: 150px;
     }

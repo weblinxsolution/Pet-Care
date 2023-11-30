@@ -951,6 +951,21 @@ ul {
     width: 85%;
 }
 
+.btn-green button {
+    background-color: #35CC00;
+    width: 100%;
+    border-radius: 100px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #FFF;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 @media (min-width:1920px) {
     .the-arrows-2 {
         top: 365px;
@@ -1307,10 +1322,14 @@ ul {
 }
 
 @media (max-width:390px) {
+    .user-socials img{
+        width: 10%;
+    }
     .profile-pic-owner {
         width: 150px;
     }
-    .profile__img{
+
+    .profile__img {
         margin-top: -2rem;
     }
 }
